@@ -1,0 +1,18 @@
+.time_display ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.time_display li{
+    display: inline;
+}
+
+.time_display li::after{
+    content: ":";
+    color: rgb(41, 45, 49);
+}
+
+.time_display li:last-child::after{
+    content: none;
+}
