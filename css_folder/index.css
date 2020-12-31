@@ -10,7 +10,7 @@
 
 .time_display li::after{
     content: ":";
-    color: rgb(41, 45, 49);
+    color: rgb(9, 85, 160);
 }
 
 .time_display li:last-child::after{
