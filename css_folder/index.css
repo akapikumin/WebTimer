@@ -6,6 +6,8 @@
 
 .time_display li{
     display: inline;
+    font-family: "Noto Sans Japanese", sans-serif;
+	font-size: 2em;
 }
 
 .time_display li::after{
