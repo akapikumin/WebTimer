@@ -12,7 +12,9 @@
 
 .time_display li::after{
     content: ":";
-    color: rgb(9, 85, 160);
+    color: rgb(120, 138, 238);
+    padding: 5px;
+    font-size: 1.3em;
 }
 
 .time_display li:last-child::after{
