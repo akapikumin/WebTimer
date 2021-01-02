@@ -2,21 +2,26 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: rgba(0, 64, 64, 0.5);
 }
 
 .time_display li{
     display: inline;
     font-family: "Noto Sans Japanese", sans-serif;
-	font-size: 2em;
+    font-size: 128px;
 }
 
 .time_display li::after{
     content: ":";
-    color: rgb(120, 138, 238);
+    color: rgb(153, 58, 58);
     padding: 5px;
     font-size: 1.3em;
 }
 
 .time_display li:last-child::after{
     content: none;
+}
+
+.time_display{
+    text-align: center;
 }
